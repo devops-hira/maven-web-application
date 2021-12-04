@@ -1,0 +1,6 @@
+node('master'){
+ def mavenHome = tool name: "Maven3.8.4"
+ stage('Build'){
+ sh "${mavenHome}/bin/mvn clean package"
+ }
+ }
