@@ -13,7 +13,7 @@ options {
 stages{
    stage('checkout'){
    steps{
-   git branch: 'development', credentialsId: 'ed8c1e61-a403-40e4-964b-c50afd41129a', url: 'https://github.com/devops-hira/maven-web-application.git'
+   git branch: 'devtest2', credentialsId: 'ed8c1e61-a403-40e4-964b-c50afd41129a', url: 'https://github.com/devops-hira/maven-web-application.git'
       
        }
                    }
